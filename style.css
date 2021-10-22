@@ -6,10 +6,6 @@ html, body {
   height: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  @media only screen (max-width: 400px) {
-    .main {width: 100px;}
-  };
-  
 }
 body {
   display: grid;
@@ -21,12 +17,12 @@ body {
 main {
   background-image: url(images/Mobile.png);
   background-repeat: no-repeat;
-  width: 375px;
-  height: 812px;
-  border-radius: 20px;
+  width: 23.4rem;
+  height: 50.7rem;
+  border-radius: 1.25rem;
 }
 .container {
-  max-width: 250px;
+  max-width: 15.6rem;
   margin: auto;
   text-align: center;
 }
