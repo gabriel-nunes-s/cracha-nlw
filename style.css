@@ -6,6 +6,9 @@ html, body {
   height: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  @media only screen (max-width:100rem) {
+    .main {width: 30rem;}
+  }
 }
 body {
   display: grid;
