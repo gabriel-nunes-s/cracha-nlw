@@ -26,6 +26,13 @@ main {
   margin: auto;
   text-align: center;
 }
+@media (min-width: 720px) {
+  /*For tablet screens*/
+  main {
+    max-width: 23.4rem;
+    max-height: 50.75rem;
+  }
+}
 .avatar {
   margin: 11.5rem auto 0;
   width: 10rem;
