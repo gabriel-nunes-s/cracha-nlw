@@ -19,7 +19,7 @@ main {
   width: 100vw;
   height: 100vw;
   min-height: 812px;
-  border-radius: 20px;
+  border-radius: 1.25rem;
 }
 .container {
   max-width: 15.6rem;
