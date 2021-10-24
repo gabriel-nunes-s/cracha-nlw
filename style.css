@@ -16,8 +16,8 @@ body {
 }
 main {
   background: url(images/Mobile.png) no-repeat center/cover;
-  width: 100vw;
-  height: 100vw;
+  width: 90vw;
+  height: 90vw;
   min-height: 812px;
   border-radius: 1.25rem;
 }
