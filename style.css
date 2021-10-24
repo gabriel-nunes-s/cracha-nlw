@@ -16,15 +16,15 @@ body {
 }
 main {
   background: url(images/Mobile.png) no-repeat center/cover;
-  width: 100vw;
-  height: 100vw;
+  width: 80vw;
+  height: 80vw;
   min-height: 812px;
   border-radius: 1.25rem;
 }
-.container {
-  max-width: 15.6rem;
-  margin: auto;
-  text-align: center;
+@media (max-width: 720px) {
+  .faixa {
+    display: none;
+  }
 }
 @media (min-width: 720px) {
   /*For tablet screens*/
@@ -32,6 +32,47 @@ main {
     max-width: 23.4rem;
     max-height: 50.75rem;
   }
+  .faixa {
+    display: none;
+  }
+}
+@media (min-width: 960px) {
+  /*FOr desktop screens*/
+  h1#user_name {
+    font-size: 15pt;
+  }
+  p#user_bio {
+    justify-content:flex-start;
+  }
+  ul {
+    position: relative;
+    top: -50px;
+  }
+  .faixa {
+    display: grid;
+    position: absolute;
+    top: 0;
+    margin: auto;
+  }
+  main {
+    background: url(images/desktopbackground.png) no-repeat center/cover;
+    width: 100vw;
+    height: 541px;
+    min-height: 541px;
+    display: grid;
+    place-content: center;
+    position: absolute;
+    top: 140px;
+  }
+  .container {
+    position: relative;
+    top: -40px;
+  }
+}
+.container {
+  max-width: 15.6rem;
+  margin: auto;
+  text-align: center;
 }
 .avatar {
   margin: 11.5rem auto 0;
