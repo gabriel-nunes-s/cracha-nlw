@@ -1,5 +1,5 @@
 const links_social_media = {
-  github: "death-simphony",
+  github: "gabriel-nunes-s",
   youtube: "UC2CbPk1gsEEGV2jHIPRZUvw",
   linkedin: "gabriel-n-dos-santos",
   instagram: "i_gns0o",
